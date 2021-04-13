@@ -7,6 +7,7 @@ var json = false;
 let path = 'https://www.ikea.com/addon-app/localizations/officeplanner/latest/se/en/';
 let responses = [];
 
+//function
 function get(url, resolve, reject) {
     https.get(url, (res) => {
       if(res.statusCode === 301 || res.statusCode === 302) {

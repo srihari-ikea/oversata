@@ -1,6 +1,6 @@
 name: Normal Run
 #This workflow is triggered on each PUSH to origin/master
-on: PUSH
+on: [PUSH]
 
 jobs:
   build-and-run:

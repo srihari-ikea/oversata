@@ -4,7 +4,7 @@
   "description": "1. split the file per tab 2. compare JSON with previous file and output the differences 3. Integrate with office planner backend to post those differences",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "author": "Srihari",
   "license": "ISC"
